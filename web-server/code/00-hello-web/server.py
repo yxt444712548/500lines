@@ -7,12 +7,12 @@ class RequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 
     # Page to send back.
     Page = '''\
-<html>
-<body>
-<p>Hello, web!</p>
-</body>
-</html>
-'''
+            <html>
+            <body>
+            <p>Hello, web!</p>
+            </body>
+            </html>
+           '''
 
     # Handle a GET request.
     def do_GET(self):
